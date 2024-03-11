@@ -9,19 +9,28 @@ header {
     background-color: #1b3a5c;
 }
 
-header h1 a {
+header h1 {
     color: #dae3f2;
-    text-decoration: none;
+    font-weight: normal;
 }
 
-header h1 a:hover {
-    color: #6aace6;
+header,
+section h2 {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 header nav li a {
@@ -39,8 +48,40 @@ header nav li a:hover {
     margin: 0 auto;
 }
 
-header .container {
+header .container,
+section .container {
     justify-content: space-between;
     display: flex;
     align-items: center;
+}
+
+.brands img {
+    height: 24px;
+}
+
+.brands li {
+    display: inline;
+    margin-right: 16px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    color: #5056a3;
+    font-weight: normal;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px;
 }
