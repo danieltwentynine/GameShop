@@ -3,3 +3,44 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    padding: 16px 0;
+    background-color: #1b3a5c;
+}
+
+header h1 a {
+    color: #dae3f2;
+    text-decoration: none;
+}
+
+header h1 a:hover {
+    color: #6aace6;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a {
+    color: #dae3f2;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: #6aace6;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
